@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: How to Run ACA Individual Quotes Through our Website
+ * Template Name: How to Run ACA Individual Quotes
  */
 if (!is_user_logged_in()) {
     wp_redirect(esc_url(home_url()));
@@ -24,20 +24,17 @@ include "header-user-dashboard.php";
                 <div class="zoom-section">
                     <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
                         <div><i class="fa-solid fa-1"></i></div>
-                        <p>The first section of this form is to be filled out by the Enrollee (you) or their Authorized Representative, such as a Power of Attorney or Legal Guardian.</p>
-                        <p>If an Authorized Representative is filling out the form, they must fill out the information under the Enrollee's information AND attach documentation showing their legal authorization.</p>
+                        <p>Navigate to <a href="https://www.stevensinsurance.com" target="_blank" style="color: #3B82F6; text-decoration: underline;">https://www.stevensinsurance.com</a></p>
+                        
                     </div>
                     <br>
-                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
-                        <img class="form-image" src="<?php echo get_template_directory_uri(); ?>/assets/File.jpeg" alt="Form Image"
-                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
-                    </div><br>
+                   
 
                     <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
                         <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
                         <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
                         <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
-                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;"></span>
                     </div>
                 </div>
 
@@ -45,12 +42,11 @@ include "header-user-dashboard.php";
                 <div class="zoom-section">
                     <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
                         <div><i class="fa-solid fa-2"></i></div>
-                        <p>On the second page of this document, you (or your provider) will include the name of the drug you need a Formulary Exception for as well as strength and quantity, if known.</p>
-                        <p>Select the option under "Type of Coverage Determination Request" that best applies to you. If you are unsure, ask your provider.</p>
+                        <p>Click "Get A Quote"</p>
                     </div><br>
 
                     <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
-                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/user_cropped_screenshot (1).jpeg" alt="Form Image"
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca2.jpeg" alt="Form Image"
                             style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
                     </div><br>
 
@@ -66,11 +62,11 @@ include "header-user-dashboard.php";
                 <div class="zoom-section">
                     <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
                         <div><i class="fa-solid fa-2"></i></div>
-                        <p>In this section, you may check the box to request an expedited decision if you or your prescriber believe your request is urgent.</p>
+                        <p>Click "Get Quotes Now" for Individual+Family</p>
                     </div><br>
 
                     <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
-                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Files.jpeg" alt="Form Image"
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca3.jpeg" alt="Form Image"
                             style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
                     </div><br>
 
@@ -86,12 +82,12 @@ include "header-user-dashboard.php";
                 <div class="zoom-section">
                     <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
                         <div><i class="fa-solid fa-2"></i></div>
-                        <p>On page 3 of the document, you will read the statement then sign and date to confirm you agree.</p>
-                        <p>This section can be completed by the Enrollee (you), an Authorized Representative, or your prescriber.</p>
+                        
+                        <p>Add Zip Code and Click Continue.</p>
                     </div><br>
 
                     <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
-                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/File (1).jpeg" alt="Form Image"
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca4.jpeg" alt="Form Image"
                             style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
                     </div><br>
 
@@ -103,21 +99,172 @@ include "header-user-dashboard.php";
                     </div>
                 </div>
 
-            <!-- Zoom Section 4 -->
+            <!-- Zoom Section 5 -->
                 <div class="zoom-section">
                     <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
                         <div><i class="fa-solid fa-2"></i></div>
-                        <p>The rest of the document is to be completed by your prescribing doctor.</p>
-                        <p>When you have completed your sections of the form, you may either email the form to your doctor, or print the document and give it to them.</p>
+                        
+                        <p>Add Test For First and last Name and include our phone number</p>
                     </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca5.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
                 </div>
+
+
+                <!-- Zoom Section 6 -->
                 <div class="zoom-section">
                     <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
                         <div><i class="fa-solid fa-2"></i></div>
-                        <p>When your prescriber has completed the form, they will send it to Aetna SilverScript to be processed through your Part D insurance.</p>
-                        <p>You will receive a decision from your insurance carrier within 72 hours of your doctor submitting the form, unless an expedited decision was requested.</p>
+                        
+                        <p>Add Applicants information -Gender and DOB</p>
                     </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca6.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
                 </div>
+
+
+                <!-- Zoom Section 7 -->
+                <div class="zoom-section">
+                    <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
+                        <div><i class="fa-solid fa-2"></i></div>
+                        
+                        <p>Add Number of those in "household + income " and Select on exchange</p>
+                    </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca7.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
+                </div>
+
+                <div style="background: #ECFDF5; padding: 15px; border-radius: 8px; border-left: 4px solid #16A34A; max-width: 900px; margin: auto; margin-bottom: 20px; font-size:19px;">
+                <div><i class="fa-solid fa-info-circle"></i></div>
+                <p style="color: #165A47">If no income is provided or they are higher income earners, you follow the same steps except DO NOT PROVIDE INCOME & SELECT OFF EXCHANGE</p>
+            </div>
+            
+                <!-- Zoom Section 8 -->
+                <div class="zoom-section">
+                    <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
+                        <div><i class="fa-solid fa-2"></i></div>
+                        
+                        <p>Click "Continue"</p>
+                    </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca8.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
+                </div>
+
+
+                <!-- Zoom Section 9 -->
+                <div class="zoom-section">
+                    <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
+                        <div><i class="fa-solid fa-2"></i></div>
+                        
+                        <p>Click "PPO" to Filter</p>
+                    </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca9.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Zoom Section 10 -->
+                <div class="zoom-section">
+                    <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
+                        <div><i class="fa-solid fa-2"></i></div>
+                        
+                        <p>Select the Bronze 60, Silver 73, Gold 80 and Platinum 90 PPO to COMPARE</p>
+                    </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca10.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
+                </div>
+
+
+                <div style="background: #ECFDF5; padding: 15px; border-radius: 8px; border-left: 4px solid #16A34A; max-width: 900px; margin: auto; margin-bottom: 20px; font-size:19px;">
+                <div><i class="fa-solid fa-info-circle"></i></div>
+                <p style="color: #165A47">Off exchange will not offer the enhance Silver 73, so you will select Silver 70</p>
+            </div>
+
+            <!-- Zoom Section 11 -->
+                <div class="zoom-section">
+                    <div style="background: #ffffff; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #2196f3; max-width: 900px; margin: auto; font-size:19px;">
+                        <div><i class="fa-solid fa-2"></i></div>
+                        
+                        <p>Print to PDF the 4 plans and title them " First Name Initial Last Name- ACA Plan-Covered CA</p>
+                    </div><br>
+
+                    <div class="zoom-container" style="overflow: hidden; width: 100%; max-width: 900px; margin: auto; border: 2px solid #ddd; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center;">
+                        <img class="form-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aca/Aca11.jpeg" alt="Form Image"
+                            style="padding: 80px 20px; max-width: 100%; height: auto; display: block; margin: auto; user-select: none; -webkit-user-drag: none; transition: transform 0.2s ease; cursor: grab;">
+                    </div><br>
+
+                    <div class="zoom-controls" style="text-align: center; margin-bottom: 15px; max-width: 900px; margin: auto;">
+                        <button class="zoom-in" style="background: #2196f3; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom In</button>
+                        <button class="zoom-out" style="background: #f44336; color: white; padding: 8px 15px; border-radius: 4px;">🔍 Zoom Out</button>
+                        <button class="reset-zoom" style="background: #4caf50; color: white; padding: 8px 15px; border-radius: 4px;">↻ Reset</button>
+                        <span class="zoom-level" style="margin-left: 15px; font-weight: bold; color: #666;">Zoom: 100%</span>
+                    </div>
+                </div>
+
+
+
             </div>
 
         </div>
@@ -161,6 +308,8 @@ button{
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.zoom-section').forEach(section => {
         const container = section.querySelector('.zoom-container');
+        // if image not found, skip this section
+        if (!container) return;
         const image = section.querySelector('.form-image');
         const zoomInBtn = section.querySelector('.zoom-in');
         const zoomOutBtn = section.querySelector('.zoom-out');

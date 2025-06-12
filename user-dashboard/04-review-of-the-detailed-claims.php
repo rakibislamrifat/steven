@@ -1,5 +1,5 @@
 <?php
-/** Template Name: ShareFile Settings (Citrix) */
+/** Template Name: Review of the Detailed Claims */
 if (!is_user_logged_in()) {
     wp_redirect(esc_url(home_url()));
     exit;
@@ -252,6 +252,8 @@ button{
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.zoom-section').forEach(section => {
         const container = section.querySelector('.zoom-container');
+        // if image not found, skip this section
+        if (!container) return;
         const image = section.querySelector('.form-image');
         const zoomInBtn = section.querySelector('.zoom-in');
         const zoomOutBtn = section.querySelector('.zoom-out');
